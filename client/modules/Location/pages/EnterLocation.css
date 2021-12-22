@@ -1,0 +1,49 @@
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBox {
+    min-height: 300px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+button {
+    width: 200px;
+    background-color: none;
+    border: 1px solid bisque;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.divider {
+    width: 400px;
+    margin: 0.8rem;
+    padding: 0.5rem;
+    border-top: 1px solid blanchedalmond;
+    border-bottom: 1px solid blanchedalmond;
+    text-align: center;
+}
+
+.toneBox {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.use {
+    margin-top: 1.5rem;
+}
+
+.goButton {
+    margin-top: 1.5rem;
+}
+
